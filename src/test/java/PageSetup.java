@@ -17,7 +17,7 @@ public class PageSetup {
     }
     @AfterEach
     public void teardown () {
-        //driver.quit();
+        driver.quit();
     }
 
 }
